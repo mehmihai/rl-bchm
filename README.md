@@ -1,13 +1,5 @@
 # Reinforcement Learning-Based Adaptive Boundary Constraint Handling for Particle Swarm Optimization
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-
-Deep Q-Network integration for adaptive boundary constraint-handling method selection in Particle Swarm Optimization.
-
----
-
-## Overview
-
 Position updates in PSO frequently generate solutions violating bound constraints. This work investigates **DQN-based adaptive selection** of boundary constraint-handling methods, learning policies that select repair strategies based on population state rather than fixed or probability-based rules.
 
 ### Key Contributions
