@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.claude/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data files
+data/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model files
+*.pt
+*.pth
+*.zip
+*.ckpt
+*.pb
+*.joblib
+
+# Results
+results/
+experiments/results/
+logs/
+checkpoints/
+analysis/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
+site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Specific to this project
+data/offline_datasets/*.h5
+data/pretrained_models/*.pt
+data/pretrained_models/*.zip
+experiments/results/baselines/
+experiments/results/rl/
+experiments/results/figures/
+experiments/results/tables/
+experiments/results/logs/
+experiments/results/*.pkl
+
+# Keep directory structure but ignore contents
+!data/.gitkeep
+!data/offline_datasets/.gitkeep
+!data/pretrained_models/.gitkeep
+!experiments/results/.gitkeep
+!experiments/results/baselines/.gitkeep
+!experiments/results/rl/.gitkeep
+!experiments/results/figures/.gitkeep
+!experiments/results/tables/.gitkeep
+!experiments/results/logs/.gitkeep
