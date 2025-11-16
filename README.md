@@ -112,6 +112,3 @@ python scripts/run_abchs_castillo.py --problems all --runs 25
 ```
 
 ---
-
-**Repository**: https://github.com/mehmihai/rl-bchm
-**Status**: Research Implementation
