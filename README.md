@@ -98,16 +98,6 @@ python scripts/run_abchs_castillo.py --problems all --runs 25
 **DQN**: Adam lr=0.001, γ=0.95, batch=128, buffer=50k (τ=0.15 violation filter), ε: 1.0→0.2, target update every 10 episodes
 
 ---
-
-## Citation
-
-```bibtex
-@inproceedings{mitran2025rl,
-  title={Reinforcement Learning-Based Adaptive Boundary Constraint Handling
-         for Particle Swarm Optimization},
-  author={Mitran, Madalina-Andreea and Ene, Mihai-Lucian},
-  booktitle={Proceedings of the International Conference},
-  year={2025}
 }
 ```
 
