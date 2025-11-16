@@ -96,9 +96,3 @@ python scripts/run_abchs_castillo.py --problems all --runs 25
 **PSO**: 100 particles, constriction k=0.729, c₁=c₂=1.49445, Deb's constraint handling
 
 **DQN**: Adam lr=0.001, γ=0.95, batch=128, buffer=50k (τ=0.15 violation filter), ε: 1.0→0.2, target update every 10 episodes
-
----
-}
-```
-
----
